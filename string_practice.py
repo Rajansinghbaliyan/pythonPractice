@@ -38,7 +38,7 @@ def print_result(string, message, result):
 
 
 def reverse_only_words(line):
-    if str == type(line):
+    if isinstance(line, str):
         result = ""
         for string in split_string(line, " "):
             result = f'{string} {result}'
