@@ -11,7 +11,7 @@ def uses_of_index(string, index):
 
 def get_character_by_index(string, index):
     if index > len(string):
-        print(f"Index should be less than the {len(string)}")
+        print(f'Index should be less than the {len(string)}')
         return
     try:
         character = string[index]
@@ -39,7 +39,7 @@ def print_result(string, message, result):
 
 def reverse_only_words(line):
     if isinstance(line, str):
-        result = ""
+        result = ''
         for string in split_string(line, " "):
             result = f'{string} {result}'
         print(result)
