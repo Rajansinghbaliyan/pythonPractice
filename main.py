@@ -1,5 +1,6 @@
 import numbers_practice
 from string_practice import call_string_functions
+from loop_practice import loop_call_method
 
 
 def print_hi(name):
@@ -11,4 +12,5 @@ if __name__ == '__main__':
     age = 45
 
     call_string_functions("hello", -3)
+    loop_call_method()
 
